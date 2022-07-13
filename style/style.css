@@ -56,21 +56,21 @@ main{
     box-shadow: 1px 10px 20px 1px black;
 }
 
-.card img:first-child{
-    width: 10%;
-    border-radius: 100px;
+.card img{
+    width: 20%;
+    border-radius: 20px;
 }
 
-.name{
+.movie-name{
     text-align: left;
     width: 20%;
     margin: 0 30px 0 30px;
 }
 
-.name img{
+.movie-name img{
     width: 7%;
 }
-.name span{
+.movie-name span{
     margin-right: 20px;
 }
 
@@ -101,15 +101,15 @@ footer{
     }
 
     .card img:first-child{
-        width: 35%;
+        width: 70%;
     }
 
-    .name{
+    .movie-name{
         text-align: center;
         width: 50%;
     }
     
-    .name span{
+    .movie-name span{
         margin-right: 20px;
     }
 

@@ -1,5 +1,4 @@
-import apiKey from "./key.js"
-
+const apiKey = config.MY_API_TOKEN
 const baseURL = 'https://api.themoviedb.org/3/'
 const requestParams = `?api_key=${apiKey}&language=pt-BR`
 
